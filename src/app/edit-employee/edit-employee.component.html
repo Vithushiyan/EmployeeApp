@@ -1,0 +1,20 @@
+<div class="container custom-container">
+  <h2 class="mb-3 text-center">Update Employee</h2>
+    <div class="col-md-6 form-center">
+      <div class="form-group">
+        <input type="text" [(ngModel)]="employeeData.name" class="form-control" placeholder="Name">
+      </div>
+  
+      <div class="form-group">
+        <input type="text" [(ngModel)]="employeeData.salary" class="form-control" placeholder="Salary">
+      </div>
+  
+      <div class="form-group">
+        <input type="text" [(ngModel)]="employeeData.age" class="form-control" placeholder="Age">
+      </div>
+  
+      <div class="form-group">
+        <button class="btn btn-success btn-lg btn-block" (click)="updateEmployee()">Update Employee</button>
+      </div>  
+    </div>
+</div>

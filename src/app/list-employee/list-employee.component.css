@@ -1,0 +1,60 @@
+.view{
+    background-color: red;
+    text-align: center;
+    color: white;
+    border-radius: 20px;
+    padding: 2px 15px; 
+}
+
+.view:hover{
+    background-color: grey;
+    color: black;
+    text-align: center;
+    border-radius: 20px;
+    padding: 2px 15px; 
+}
+
+
+.edit{
+    background-color: rgb(8, 49, 235);
+    text-align: center;
+    color: white;
+    border-radius: 20px;
+    padding: 2px 15px; 
+}
+
+.edit:hover{
+    background-color: grey;
+    color: black;
+    text-align: center;
+    border-radius: 20px;
+    padding: 2px 15px; 
+}
+
+.delete{
+    background-color: rgb(5, 172, 5);
+    text-align: center;
+    color: white;
+    border-radius: 20px;
+    padding: 2px 15px; 
+}
+
+.delete:hover{
+    background-color: grey;
+    color: black;
+    text-align: center;
+    border-radius: 20px;
+    padding: 2px 15px; 
+}
+
+td,tr{
+    text-align: center
+}
+
+h3{
+    padding: 30px 0; 
+}
+
+button{
+ outline: none;
+}

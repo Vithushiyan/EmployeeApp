@@ -1,0 +1,22 @@
+{
+  "employees": [
+    {
+      "id": 1,
+      "name": "Tiger Nixon ",
+      "salary": "320800",
+      "age": "61"
+    },
+    {
+      "name": "Vithu",
+      "salary": "23000",
+      "age": "24",
+      "id": 3
+    },
+    {
+      "name": "Abarna",
+      "salary": "2300000",
+      "age": "21",
+      "id": 4
+    }
+  ]
+}

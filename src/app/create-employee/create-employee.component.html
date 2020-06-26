@@ -1,0 +1,20 @@
+<div class="container">
+      <h2 class="mb-3 text-center">Create Employee</h2>
+        <div class="col-md-6 form-center">
+          <div class="form-group">
+              <input type="text" [(ngModel)]="employeeDetails.name" class="form-control" placeholder="Name">
+          </div>
+            
+          <div class="form-group">
+              <input type="text" [(ngModel)]="employeeDetails.salary" class="form-control" placeholder="Salary">
+          </div>
+            
+          <div class="form-group">
+              <input type="text" [(ngModel)]="employeeDetails.age" class="form-control" placeholder="Age">
+          </div>
+            
+          <div class="form-group create-btn">
+              <button class="btn btn-success btn-lg btn-block" (click)="addEmployee()">Create Employee</button>
+          </div>
+    </div>
+</div>

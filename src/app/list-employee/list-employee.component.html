@@ -1,0 +1,36 @@
+<div class="container custom-container-2">
+    <div class="view-emp">
+      <h3 class="mb-3 text-center">Employees List</h3>
+  
+      <div class="col-md-12">
+        <table class="table table-bordered">
+          <thead>
+            <tr>
+              <th scope="col">Employee ID</th>
+              <th scope="col">Employee Name</th>
+              <th scope="col">Salary</th>
+              <th scope="col">Age</th>
+              <th scope="col">View</th>
+              <th scope="col">Edit</th>
+              <th scope="col">Delete</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr *ngFor="let employee of Employee">
+              <td>{{employee.id}}</td>
+              <td>{{employee.name}}</td>
+              <td>{{employee.salary}}</td>
+              <td>{{employee.age}}</td>
+              <td><button class="view" routerLink="/view-employee/{{employee.id}}">View</button></td>
+              <td><button class="edit" routerLink="/edit-employee/{{employee.id}}">Edit</button></td> 
+              <td><button class="delete" (click)="deleteEmployee(employee.id)">Delete</button></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <div class="no-data text-center">
+        <button class="btn btn-outline-primary" routerLink="/create-employee">Add Empoyee</button>
+      </div>
+  
+  </div>
